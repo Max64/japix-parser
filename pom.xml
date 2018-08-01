@@ -11,7 +11,16 @@
 
     <properties>
         <jdk.version>1.8</jdk.version>
+        <javaparser.version>3.6.15</javaparser.version>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.javaparser</groupId>
+            <artifactId>javaparser-core</artifactId>
+            <version>${javaparser.version}</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
